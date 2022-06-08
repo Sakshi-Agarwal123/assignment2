@@ -1,12 +1,12 @@
 // Fibonacci numbers
 
-let number1=0,number2=1,temp;
-console.log(number1);
-console.log(number2);
-while(number1+number2<=5000){
-temp=number1+number2;
-console.log(temp);
-number1=number2;
-number2=temp;
+let firstFibonnacciNumber1=0,secondFibonaccinumber2=1,fibonacciNumber; //Use descriptive variable names
+console.log(firstFibonnacciNumber1);
+console.log(secondFibonaccinumber2);
+while(firstFibonnacciNumber1+secondFibonaccinumber2<=50000){
+fibonacciNumber=firstFibonnacciNumber1+secondFibonaccinumber2;
+console.log(fibonacciNumber);
+firstFibonnacciNumber1=secondFibonaccinumber2;
+secondFibonaccinumber2=fibonacciNumber;
 }
 

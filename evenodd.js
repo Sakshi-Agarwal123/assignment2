@@ -1,4 +1,4 @@
-let number=[2,3,4,5,6,100,55,0,0];
+let number=[2,3,4,5,61,100,55,0,0,0];
 let even_number=0,odd_number=0,zero=0;
 for(let i in number){
     if(number[i]==0){
